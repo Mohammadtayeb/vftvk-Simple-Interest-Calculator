@@ -1,4 +1,50 @@
-body {background-color:tan;}
-h1{color:green;}
+h1 {
+    color: gray;
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+div#calculator {
+    width: 80%;
+    height: 90%;
+    background-color: white;
+    margin: auto;
+    border-radius: 30px;
+    overflow: auto;
+}
+
+form {
+    margin-left: 200px;
+    font-size: x-large;
+}
+
+input#principal {
+    margin-left: 60px;
+}
+
+input#rate {
+    margin-left: 20px;
+}
+
+select {
+    margin-left: 20px;
+}
 
 
+p {
+    font-size: x-large;
+    margin-left: 90px;
+}
+
+div#result {
+    margin-left: 200px;
+}
+
+mark {
+    background-color: yellow;
+}
